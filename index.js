@@ -14,11 +14,11 @@ class Neighborhood{
      store.neighborhoods.push(this);
   }
 }
-const neighborhood = new Neighborhood('name')
-//
-// deliveries(){
-//   return store.deliveries.filter(delivery => delivery.neighborhoodId === this.id);
-// }
+
+
+deliveries(){
+  return store.deliveries.filter(delivery => delivery.neighborhoodId === this.id);
+}
 // customers(){
 //   return
 // }
